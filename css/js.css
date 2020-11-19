@@ -1,0 +1,135 @@
+.m-fixed{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.bg-slider{
+  background-position:center center;
+}
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+.btn-hover .txt,.btn-hover .btn-icon{
+  transition: 0.25s;
+}
+.firstfadein, .secondfadein{
+  display: none;
+}
+
+ /* online.html > modal */
+.modal-wrapper{
+  display: none;
+}
+.modal-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+}
+.modal-back{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1100;
+  background-color: #343434;
+  opacity: 71%;
+  cursor: pointer;
+}
+.close-icon-box{
+  width: 100%;
+  text-align: right;
+}
+.close-icon{
+  color: #343434;
+  cursor: pointer;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+.modal-box{
+  position: fixed;
+  top: 18%;
+  left: 20%;
+  z-index: 1200;
+  width: 904px;
+  height: 530px;
+  background-color: #fff;
+}
+.modal-contents{
+  display: flex;
+  margin-top: 70px;
+}
+.modal-img-box{
+  width: 325px;
+  height: 325px;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 27px;
+  margin-right: 32px;
+}
+.modal-txt-box{
+  width: 428px;
+  margin-top: 7px;
+  position: relative;
+}
+.modal-txt-box .cart-btn{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.modal-item-name{
+  display: flex;
+  justify-content: space-between;
+}
+.item-detail{
+  margin-top: 46px;
+}
+.item-size{
+  margin-top: 46px;
+}
+
+#modal-img1{
+  background-image: url(../images/plant2.jpg);
+}
+#modal-img2{
+  background-image: url(../images/pot5.jpg);
+}
+#modal-img3{
+  background-image: url(../images/pot4.jpg);
+}
+#modal-img4{
+  background-image: url(../images/pot3.jpg);
+}
+#modal-img5{
+  background-image: url(../images/pot7.jpg);
+}
+#modal-img6{
+  background-image: url(../images/pot6.jpg);
+}
+#modal-img7{
+  background-image: url(../images/pot8.jpg);
+  background-position: right center;
+}
+#modal-img8{
+  background-image: url(../images/pot10.jpg);
+}
+#modal-img9{
+  background-image: url(../images/pot9.jpg);
+}
+#modal-img10{
+  background-image: url(../images/soil1.jpg);
+}
+#modal-img11{
+  background-image: url(../images/plant7.jpg);
+}
+#modal-img12{
+  background-image: url(../images/botanic4.jpg);
+}
+
+ /*----online.html > modal */
