@@ -42,10 +42,11 @@ $(function(){
   });
 
   // firstfadein
-  $('.firstfadein').fadeIn(500);
+  $('.firstfadein').fadeIn(1000);
 
   // secondfadein
   $('.secondfadein').fadeIn(2000);
+  
   // link-btnホバー
   $( '.btn-hover' ).hover(function(){
     $(this).css({
